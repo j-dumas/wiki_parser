@@ -2,6 +2,9 @@ Structure:
 - src 
   - main.c 
   - module1 (private c and h files)
+		- module1.h
+		- module1.c
+		- module1_static_test.c (include module1.c into this file to test, or include into tests ?) (test static functions)
   - ...
 
 - include (public headers)
@@ -10,6 +13,6 @@ Structure:
 
 - build (intermediary cmake files)
 - bin (executable)
-- tests (1 file per module)
+- tests (1 file per module) (public interfaces tests)
   - module1_tests.c 
   - ...
