@@ -1,0 +1,15 @@
+Structure:
+- src 
+  - main.c 
+  - module1 (private c and h files)
+  - ...
+
+- include (public headers)
+  - module1.h 
+  - ...
+
+- build (intermediary cmake files)
+- bin (executable)
+- tests (1 file per module)
+  - module1_tests.c 
+  - ...
