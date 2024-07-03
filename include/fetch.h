@@ -1,6 +1,6 @@
 #ifndef FETCH_H
 #define FETCH_H
 
-void test();
+void print_hello();
 
 #endif // FETCH_H

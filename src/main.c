@@ -1,5 +1,6 @@
 #include <fetch.h>
 
 int main() {
-  test();
+  // TODO : print usage
+  print_hello();
 }

@@ -2,6 +2,6 @@
 
 #include <stdio.h>
 
-void test() {
+void print_hello() {
   printf("Hello World from Lib!");
 }
