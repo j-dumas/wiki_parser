@@ -2,5 +2,5 @@
 
 int main() {
   // TODO : print usage
-  print_hello();
+  init_network();
 }

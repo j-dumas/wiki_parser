@@ -1,6 +1,6 @@
 #ifndef FETCH_H
 #define FETCH_H
 
-void print_hello();
+int init_network();
 
 #endif // FETCH_H
